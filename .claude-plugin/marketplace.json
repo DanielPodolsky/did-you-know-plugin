@@ -1,0 +1,15 @@
+{
+  "name": "did-you-know-marketplace",
+  "owner": {
+    "name": "Daniel",
+    "email": "lambodol76@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "did-you-know",
+      "source": "relative",
+      "path": "./plugins/did-you-know",
+      "description": "Turns Claude Code's loading-spinner text into fun, true 'Did You Know' facts about any topic you choose."
+    }
+  ]
+}
