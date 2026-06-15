@@ -27,21 +27,36 @@ because these strings render in a narrow one-line spinner:
 1. **Length is sacred.** Each fact MUST be **≤ 50 characters** including spaces.
    The spinner truncates anything longer with "…", which ruins the effect.
    Count characters. If a fact is too long, tighten it or pick a different one.
-2. **True, not generic.** Each fact must be accurate and specific — a real "huh, neat"
-   moment, not filler like "Basketball is popular". If you are unsure whether a
-   surprising stat/date is correct, either pick a fact you ARE sure of, or use the
-   WebSearch tool to verify before including it. We do not ship guesses.
-3. **No "Did you know" prefix inside the string.** It eats your 50 characters and the
+2. **SPICY, not surface-level.** This is the most important rule. Each fact must make
+   the reader go "wait, WHAT?" — surprising, counterintuitive, obscure, scandalous,
+   record-breaking, or delightfully weird. Aim for facts that even a FAN of the topic
+   might not know. Apply this self-test to EVERY fact before including it:
+   > "Would someone who already likes this topic be surprised by this?"
+   If the answer is no, CUT IT and find a juicier one.
+   - ❌ BLAND (cut these): definitions, totals, dates, "X is the biggest/most popular",
+     "the tournament has 48 teams" — anyone could guess these.
+   - ✅ SPICY (ship these): hidden histories, bizarre records, near-disasters, weird
+     rules, surprising numbers, "firsts" nobody remembers, scandals, behind-the-scenes
+     oddities, things that sound made-up but are true.
+   - Example (topic = basketball):
+     - ❌ Bland: `The NBA has 30 teams`
+     - ✅ Spicy: `An NBA game was once won with -0 points 🤯` (real oddities like this)
+3. **True. Verify the spicy ones.** Spicy facts are easy to get wrong. If a surprising
+   stat, date, or claim isn't something you are CERTAIN of, use the WebSearch tool to
+   confirm it before including it. We ship surprises, never fabrications. A wrong
+   "fact" is worse than a boring one.
+4. **No "Did you know" prefix inside the string.** It eats your 50 characters and the
    spinner context already implies it. Lead with the fact itself.
    - Good:  `Hakeem averaged a near quadruple-double 🏀`
    - Bad:   `Did you know that Hakeem Olajuwon once...` (too long, wasted prefix)
-4. **Variety.** Mix angles: records, origins, weird trivia, numbers, people, "firsts".
+5. **Variety of spice.** Mix the angles: bizarre records, scandals, origins nobody
+   knows, weird rules, shocking numbers, forgotten "firsts", behind-the-scenes oddities.
    No two facts should feel like the same fact reworded.
-5. **One tasteful emoji** related to the topic is allowed at the end (optional). Keep it to one.
-6. **No duplicates.** 40 distinct facts.
+6. **One tasteful emoji** related to the topic is allowed at the end (optional). Keep it to one.
+7. **No duplicates.** 40 distinct facts.
 
 If the user has run this before and asks to regenerate because it "feels repetitive",
-deliberately choose a DIFFERENT, more obscure set than the obvious top-10 facts.
+go even DEEPER into the obscure — the stuff only superfans and trivia nerds know.
 
 ## Step 2 — Back up current settings (safety first)
 
