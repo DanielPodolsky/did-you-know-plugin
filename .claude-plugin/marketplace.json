@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "did-you-know",
-      "source": "./plugins/did-you-know",
+      "name": "dyk",
+      "source": "./plugins/dyk",
       "description": "Turns Claude Code's loading-spinner text into fun, true 'Did You Know' facts about any topic you choose."
     }
   ]

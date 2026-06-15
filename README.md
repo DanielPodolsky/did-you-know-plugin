@@ -18,13 +18,13 @@ Claude Code lets you override the spinner text via the `spinnerVerbs` key in
 `~/.claude/settings.json`. That array is **static** — the spinner just picks a
 random entry per request, so it's free at display time.
 
-The plugin ships a single slash command (`/did-you-know:dyk`). The command is a
+The plugin ships a single slash command (`/dyk:topic`). The command is a
 **prompt**, not a script: when you run it, *your* Claude generates a batch of true,
 spinner-sized facts about your topic and writes them into `spinnerVerbs`. No API
 keys, no servers — it rides on the Claude you already have.
 
 ```
-/did-you-know:dyk basketball
+/dyk:topic basketball
         │
         ├─ Claude generates 40 short, true facts (≤ 50 chars each)
         ├─ backs up ~/.claude/settings.json → settings.json.bak
@@ -40,15 +40,15 @@ claude plugin marketplace add DanielPodolsky/did-you-know-plugin   # GitHub shor
 claude plugin marketplace add file:///path/to/did-you-know-plugin
 
 # Install the plugin
-claude plugin install did-you-know
+claude plugin install dyk
 ```
 
 ## Use
 
 ```bash
-/did-you-know:dyk basketball      # generate & install basketball facts
-/did-you-know:dyk roman empire    # switch topics any time
-/did-you-know:dyk basketball      # run again to regenerate if it feels repetitive
+/dyk:topic basketball      # generate & install basketball facts
+/dyk:topic roman empire    # switch topics any time
+/dyk:topic basketball      # run again to regenerate if it feels repetitive
 ```
 
 New facts take effect in a **fresh Claude Code session**, so restart to see them.

@@ -1,0 +1,12 @@
+{
+  "name": "dyk",
+  "displayName": "DYK — Did You Know Spinner Facts",
+  "description": "Turns Claude Code's loading-spinner text into fun, true 'Did You Know' facts about any topic you choose. Run /dyk:topic <topic> to generate and install a fresh batch.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel",
+    "email": "lambodol76@gmail.com"
+  },
+  "keywords": ["spinner", "fun", "facts", "did-you-know", "productivity", "spinnerVerbs"],
+  "license": "MIT"
+}
